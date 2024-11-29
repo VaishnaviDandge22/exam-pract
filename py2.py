@@ -1,2 +1,2 @@
 print("hi")
-printf("heyy")
+print("heyy")
