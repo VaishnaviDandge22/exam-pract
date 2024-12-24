@@ -8,5 +8,6 @@ const { Builder, Browser, By, Key, until } = require('selenium-webdriver')
     await driver.wait(until.titleIs('webdriver - Google Search'), 1000)
   } finally {
     await driver.quit()
+    await driver.quit()
   }
 })()
